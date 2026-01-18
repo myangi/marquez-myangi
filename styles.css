@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffb8df; /* Very light pink background */
+    color: #333; /* Dark text for contrast */
+    text-align: center;
+}
+
+header {
+    padding: 50px 20px;
+    background-color: #ffb6c1; /* Soft pink for header */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    color: #333; /* Dark text */
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #ffc0cb; /* Light pink border for pic */
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+    color: #583a3a; /* Dark for name */
+}
+
+.university, .section, .student-number, .email, .description {
+    font-size: 1.2em;
+    margin: 5px 0;
+    color: #8b0000; /* Darker pink for details */
+}
+
+#interests {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8aeba; /* Light pink for interests */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#projects {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8aeba; /* Another pink shade for projects */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #333; /* Dark for section headings */
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333; /* Dark for paragraphs */
+}
+
+ul {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #333; /* Dark for list items */
+}
+
+.project {
+    margin-bottom: 30px;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-pic {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 2px solid #ffb6c1; /* Soft pink border for images */
+}
